@@ -1,0 +1,52 @@
+{"frames": {
+
+"arm.png":
+{
+	"frame": {"x":409,"y":56,"w":83,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":83,"h":58},
+	"sourceSize": {"w":83,"h":58}
+},
+"body.png":
+{
+	"frame": {"x":2,"y":2,"w":405,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":168},
+	"sourceSize": {"w":405,"h":168}
+},
+"leg.png":
+{
+	"frame": {"x":409,"y":2,"w":96,"h":52},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":96,"h":52},
+	"sourceSize": {"w":98,"h":52}
+},
+"whisker.png":
+{
+	"frame": {"x":2,"y":202,"w":37,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":37,"h":15},
+	"sourceSize": {"w":37,"h":15}
+},
+"windup.png":
+{
+	"frame": {"x":409,"y":116,"w":78,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":84},
+	"sourceSize": {"w":78,"h":84}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "texture.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c9d7eb09df4012f790ce70a9c38746fc:3835d413e80010a2e088e698ec48fc68:88db1022cd6b660616541d2788fcd4f7$"
+}
+}
