@@ -1,7 +1,7 @@
 {
 "bones": [
 	{ "name": "root" },
-	{ "name": "bone", "parent": "root", "length": 160, "x": -0.08, "y": -1.74, "rotation": 15.41, "cunt":1000 },
+	{ "name": "bone", "parent": "root", "length": 160, "x": -0.08, "y": -1.74, "rotation": 15.41},
 	{ "name": "bone2", "parent": "bone", "length": 58.82, "x": -53.07, "y": -19.11, "rotation": -141 },
 	{ "name": "bone3", "parent": "bone", "length": 63.9, "x": -199.87, "y": 5.53, "rotation": -175.72 },
 	{ "name": "bone4", "parent": "bone", "length": 51.07, "x": -73.08, "y": 68.57, "rotation": 96.94 },
