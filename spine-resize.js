@@ -1,31 +1,35 @@
 
 
+////////////// Run in Node as follows: 
+//node spine-resize file1.json file2.json file3.json outputFolderName
+//Can handle as many files needed, output folder name must be last param, output folder created inside current folder (where input files are)
+
 //Grab the incoming command-line paramaters...
 var paramsFromCommandLine;
 paramsFromCommandLine = process.argv;
 
+//Output folder is last parameter..
+var outputFolder = paramsFromCommandLine[paramsFromCommandLine.length-1];
 
-//Make sure we have exactly the right amount (this could be cleverer..)
-if(paramsFromCommandLine.length != 4){
-	console.log("Incorrect arguments. 2 arguments needed: \n" + 
-		"1 - input-file.json \n"+
-		"2 - output directory (in source directory)");
-	return;
+//Make new array ready for input files...
+var inputFiles = [];
+
+//Create inputFiles array from command line params...
+for(var i = 0; i<paramsFromCommandLine.length; i++){
+	if(i != 0 && i != 1 && i != paramsFromCommandLine.length-1){
+		inputFiles.push(paramsFromCommandLine[i]);
+	};
 };
-
-//Get values of input file and output folder..
-var inputFile = paramsFromCommandLine[2];
-var outputFolder = paramsFromCommandLine[3];
 
 //Hardcoded scale factor to resize everything by...
 //Visual asset MUST be scaled (ie. in Photoshop) by exact same amount..
 var scaleFactor = 0.7;
 
-var newJSON;
 
 //Ready the file system handling for the incoming json file..
 var incomingJSON = require('fs');
-
+var newJSON;
+var currentFile = 0;
 
 //Create a folder based on the the incoming folder name...
 incomingJSON.mkdir(outputFolder, null, function(err){
@@ -37,40 +41,57 @@ incomingJSON.mkdir(outputFolder, null, function(err){
 	}else{
 		console.log("Folder didn't exist so it's been created..")
 	}
-});
-	
-//Read incoming json file...
-incomingJSON.readFile('./'+inputFile, 'utf8', function(err, data){
-	//If we can't read the file, trace an error..
-	if (err) {
-    	return console.log("Couldn't open file!!!!! ERROR: "+err);
-	}
-	//Otherwise parse incoming json data and pass to 'beginUpdate'..
-  	newJSON = JSON.parse(data);
-  	beginUpdate(newJSON);
-});
+});	
+
+//Begin going through json files...
+handleFile();
+
+
+
+function handleFile(){
+	//Get current file...
+	var currentFileName = inputFiles[currentFile];
+
+	//Read incoming json file...
+	incomingJSON.readFile('./'+inputFiles[currentFile], 'utf8', function(err, data){
+		//If we can't read the file, trace an error..
+		if(err){
+	    	return console.log("Couldn't open file!!!!! ERROR: "+err);
+		}
+		
+		//Otherwise parse incoming json data and pass to 'beginUpdate'..
+	  	newJSON = JSON.parse(data);
+	  	beginUpdate(newJSON);
+	  	
+	  	//Once done, create the output json file!
+		outputNewJSON(newJSON, currentFileName); 
+
+		//Iterate this var and if we're not at the end of the array, do this again.. 
+		currentFile++;
+		if(currentFile < inputFiles.length){
+			handleFile();
+		};
+	});
+}
+
 
 //For each of the below keys, pass into 'updateJSONvalue'..
-function beginUpdate(json){
-	
+function beginUpdate(json){	
 	updateJSONvalue(json, "length");		
 	updateJSONvalue(json, "x");
 	updateJSONvalue(json, "y");
 	updateJSONvalue(json, "w");
 	updateJSONvalue(json, "h");
 	updateJSONvalue(json, "width");
-	updateJSONvalue(json, "height");
-	
-	//Once done, create the output json file!
-	outputNewJSON(json); 
-}
+	updateJSONvalue(json, "height");		
+};
 
 function updateJSONvalue(obj, key){
   	
 	//If the incoming item isn't an object (ie. its a bottom-of-the-chain-item), return..
   	if(typeof(obj)!=='object'){
     	return;
-	}
+	};
 	//If the current item is an array...
 	if((typeof(obj)==='object') && (obj.constructor===Array)){
 		//Go through array indices..
@@ -104,10 +125,11 @@ function changeValue(val, key){
 	return Math.round(val * scaleFactor);
 };
 
-function outputNewJSON(json){
+function outputNewJSON(json, output){
+	
 	//Write new json file... JSON.stringify method has a number passed in to adjust white-space formating..
 	//Doesn't really matter but makes it nicer to look at..
-	incomingJSON.writeFile('./'+outputFolder+"/"+inputFile, JSON.stringify(json, null, 2), function(err) {
+	incomingJSON.writeFile('./'+outputFolder+"/"+output, JSON.stringify(json, null, 2), function(err) {
         if(err) {
             console.log(err);
         } else {
