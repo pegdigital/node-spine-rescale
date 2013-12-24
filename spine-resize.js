@@ -23,7 +23,7 @@ for(var i = 0; i<paramsFromCommandLine.length; i++){
 
 //Hardcoded scale factor to resize everything by...
 //Visual asset MUST be scaled (ie. in Photoshop) by exact same amount..
-var scaleFactor = 0.7;
+var scaleFactor = 0.706;
 
 
 //Ready the file system handling for the incoming json file..
@@ -92,10 +92,14 @@ function updateJSONvalue(obj, key){
   	if(typeof(obj)!=='object'){
     	return;
 	};
+
+
+
 	//If the current item is an array...
 	if((typeof(obj)==='object') && (obj.constructor===Array)){
 		//Go through array indices..
 		for(var i = 0; i<obj.length; i++){
+
 			//'propertyIsEnumerable' doesn't count properties in prototype chain (eg. 'length' is a property of some of
 			//the incoming objects but also a standard propety of objects and arrays!)..
 	  		if(obj[i].propertyIsEnumerable(key)){
@@ -110,6 +114,13 @@ function updateJSONvalue(obj, key){
 	}else if(typeof(obj)==='object'){
 		//Go through all properties..
 		for(var i = 0; i<Object.keys(obj).length; i++){
+
+			//If we're changing x or y, we need to skip over anything with the key 'scale' otherwise the animation gets
+			//scaled and we don't want this..
+			if(obj[Object.keys(obj)[i]]["scale"] != undefined && (key == "x" || key == "y")){
+				continue;
+			};
+
 			//If we find a relevant key (eg. 'x' if we're searching for 'x')
 			if(obj[Object.keys(obj)[i]].propertyIsEnumerable(key)){
 				//Change it by passing it to 'changeValue' method (it gets multiplied by scaleFactor)
@@ -122,7 +133,8 @@ function updateJSONvalue(obj, key){
 };
 
 function changeValue(val, key){
-	return Math.round(val * scaleFactor);
+	//return Math.round(val * scaleFactor);
+	return val * scaleFactor;
 };
 
 function outputNewJSON(json, output){
