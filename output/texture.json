@@ -1,0 +1,236 @@
+{
+  "frames": {
+    "arm_L.png": {
+      "frame": {
+        "x": 228.744,
+        "y": 1.412,
+        "w": 100.958,
+        "h": 57.891999999999996
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100.958,
+        "h": 57.891999999999996
+      },
+      "sourceSize": {
+        "w": 100.958,
+        "h": 57.891999999999996
+      }
+    },
+    "arm_R.png": {
+      "frame": {
+        "x": 228.744,
+        "y": 60.715999999999994,
+        "w": 97.428,
+        "h": 59.303999999999995
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 97.428,
+        "h": 59.303999999999995
+      },
+      "sourceSize": {
+        "w": 97.428,
+        "h": 59.303999999999995
+      }
+    },
+    "body_wombat.png": {
+      "frame": {
+        "x": 1.412,
+        "y": 1.412,
+        "w": 225.92,
+        "h": 279.57599999999996
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 225.92,
+        "h": 279.57599999999996
+      },
+      "sourceSize": {
+        "w": 225.92,
+        "h": 279.57599999999996
+      }
+    },
+    "ear_L.png": {
+      "frame": {
+        "x": 228.744,
+        "y": 164.498,
+        "w": 52.949999999999996,
+        "h": 55.773999999999994
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52.949999999999996,
+        "h": 55.773999999999994
+      },
+      "sourceSize": {
+        "w": 52.949999999999996,
+        "h": 55.773999999999994
+      }
+    },
+    "ear_R.png": {
+      "frame": {
+        "x": 283.106,
+        "y": 164.498,
+        "w": 50.831999999999994,
+        "h": 52.244
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 50.831999999999994,
+        "h": 52.244
+      },
+      "sourceSize": {
+        "w": 50.831999999999994,
+        "h": 52.244
+      }
+    },
+    "eyebrows.png": {
+      "frame": {
+        "x": 1.412,
+        "y": 329.702,
+        "w": 145.43599999999998,
+        "h": 13.414
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 145.43599999999998,
+        "h": 13.414
+      },
+      "sourceSize": {
+        "w": 145.43599999999998,
+        "h": 13.414
+      }
+    },
+    "eyes_closed_wombat.png": {
+      "frame": {
+        "x": 1.412,
+        "y": 282.4,
+        "w": 159.55599999999998,
+        "h": 45.89
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 159.55599999999998,
+        "h": 45.89
+      },
+      "sourceSize": {
+        "w": 159.55599999999998,
+        "h": 45.89
+      }
+    },
+    "eyes_half_wombat.png": {
+      "frame": {
+        "x": 162.38,
+        "y": 328.996,
+        "w": 158.85,
+        "h": 45.184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 158.85,
+        "h": 45.184
+      },
+      "sourceSize": {
+        "w": 158.85,
+        "h": 45.184
+      }
+    },
+    "eyes_open_wombat.png": {
+      "frame": {
+        "x": 162.38,
+        "y": 282.4,
+        "w": 158.85,
+        "h": 45.184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 158.85,
+        "h": 45.184
+      },
+      "sourceSize": {
+        "w": 158.85,
+        "h": 45.184
+      }
+    },
+    "foot_L.png": {
+      "frame": {
+        "x": 228.744,
+        "y": 121.43199999999999,
+        "w": 64.246,
+        "h": 41.653999999999996
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64.246,
+        "h": 41.653999999999996
+      },
+      "sourceSize": {
+        "w": 64.246,
+        "h": 41.653999999999996
+      }
+    },
+    "foot_R.png": {
+      "frame": {
+        "x": 294.402,
+        "y": 121.43199999999999,
+        "w": 60.715999999999994,
+        "h": 41.653999999999996
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60.715999999999994,
+        "h": 41.653999999999996
+      },
+      "sourceSize": {
+        "w": 60.715999999999994,
+        "h": 41.653999999999996
+      }
+    }
+  },
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker ",
+    "version": "1.0",
+    "image": "texture.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 361.472,
+      "h": 722.944
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:2051e2c9ecfa6ea101b6fa1f95b4185a:2dcedb49178d59ca305b68b65ebe1f51:88db1022cd6b660616541d2788fcd4f7$"
+  }
+}
