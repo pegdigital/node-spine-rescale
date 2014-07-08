@@ -1,0 +1,476 @@
+{
+  "frames": {
+    "rabbit-1-body-down.png": {
+      "frame": {
+        "x": 79.072,
+        "y": 1.412,
+        "w": 70.6,
+        "h": 122.844
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7.06,
+        "y": 4.942,
+        "w": 70.6,
+        "h": 122.844
+      },
+      "sourceSize": {
+        "w": 83.30799999999999,
+        "h": 131.316
+      }
+    },
+    "rabbit-1-left-ear-down.png": {
+      "frame": {
+        "x": 529.5,
+        "y": 1.412,
+        "w": 56.48,
+        "h": 61.422
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3.53,
+        "y": 2.824,
+        "w": 56.48,
+        "h": 61.422
+      },
+      "sourceSize": {
+        "w": 62.128,
+        "h": 65.658
+      }
+    },
+    "rabbit-1-left-ear-middle.png": {
+      "frame": {
+        "x": 658.698,
+        "y": 58.598,
+        "w": 70.6,
+        "h": 55.773999999999994
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4.942,
+        "y": 2.824,
+        "w": 70.6,
+        "h": 55.773999999999994
+      },
+      "sourceSize": {
+        "w": 80.484,
+        "h": 64.246
+      }
+    },
+    "rabbit-1-left-ear-up.png": {
+      "frame": {
+        "x": 501.96599999999995,
+        "y": 1.412,
+        "w": 26.122,
+        "h": 75.542
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6.353999999999999,
+        "y": 2.824,
+        "w": 26.122,
+        "h": 75.542
+      },
+      "sourceSize": {
+        "w": 40.242,
+        "h": 81.19
+      }
+    },
+    "rabbit-1-left-leg.png": {
+      "frame": {
+        "x": 52.244,
+        "y": 134.14,
+        "w": 49.419999999999995,
+        "h": 38.83
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3.53,
+        "y": 2.824,
+        "w": 49.419999999999995,
+        "h": 38.83
+      },
+      "sourceSize": {
+        "w": 57.891999999999996,
+        "h": 43.065999999999995
+      }
+    },
+    "rabbit-1-right-ear-down.png": {
+      "frame": {
+        "x": 559.1519999999999,
+        "y": 64.246,
+        "w": 48.714,
+        "h": 52.949999999999996
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2.118,
+        "y": 2.824,
+        "w": 48.714,
+        "h": 52.949999999999996
+      },
+      "sourceSize": {
+        "w": 52.949999999999996,
+        "h": 61.422
+      }
+    },
+    "rabbit-1-right-ear-middle.png": {
+      "frame": {
+        "x": 717.2959999999999,
+        "y": 1.412,
+        "w": 77.66,
+        "h": 54.361999999999995
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1.412,
+        "y": 6.353999999999999,
+        "w": 77.66,
+        "h": 54.361999999999995
+      },
+      "sourceSize": {
+        "w": 81.896,
+        "h": 65.658
+      }
+    },
+    "rabbit-1-right-ear-up.png": {
+      "frame": {
+        "x": 413.71599999999995,
+        "y": 1.412,
+        "w": 28.24,
+        "h": 86.13199999999999
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10.59,
+        "y": 3.53,
+        "w": 28.24,
+        "h": 86.13199999999999
+      },
+      "sourceSize": {
+        "w": 45.184,
+        "h": 93.192
+      }
+    },
+    "rabbit-1-right-leg.png": {
+      "frame": {
+        "x": 1.412,
+        "y": 134.14,
+        "w": 49.419999999999995,
+        "h": 38.83
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4.942,
+        "y": 2.824,
+        "w": 49.419999999999995,
+        "h": 38.83
+      },
+      "sourceSize": {
+        "w": 57.891999999999996,
+        "h": 43.065999999999995
+      }
+    },
+    "rabbit-1-tail.png": {
+      "frame": {
+        "x": 473.02,
+        "y": 81.19,
+        "w": 36.006,
+        "h": 36.711999999999996
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2.118,
+        "y": 3.53,
+        "w": 36.006,
+        "h": 36.711999999999996
+      },
+      "sourceSize": {
+        "w": 40.242,
+        "h": 46.596
+      }
+    },
+    "rabbit-2-body-down.png": {
+      "frame": {
+        "x": 1.412,
+        "y": 1.412,
+        "w": 76.24799999999999,
+        "h": 131.316
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4.236,
+        "y": 4.236,
+        "w": 76.24799999999999,
+        "h": 131.316
+      },
+      "sourceSize": {
+        "w": 86.13199999999999,
+        "h": 138.376
+      }
+    },
+    "rabbit-2-left-ear-down.png": {
+      "frame": {
+        "x": 587.3919999999999,
+        "y": 1.412,
+        "w": 55.773999999999994,
+        "h": 61.422
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3.53,
+        "y": 2.118,
+        "w": 55.773999999999994,
+        "h": 61.422
+      },
+      "sourceSize": {
+        "w": 61.422,
+        "h": 68.482
+      }
+    },
+    "rabbit-2-left-ear-middle.png": {
+      "frame": {
+        "x": 644.578,
+        "y": 1.412,
+        "w": 71.306,
+        "h": 55.773999999999994
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2.824,
+        "y": 2.824,
+        "w": 71.306,
+        "h": 55.773999999999994
+      },
+      "sourceSize": {
+        "w": 78.366,
+        "h": 64.246
+      }
+    },
+    "rabbit-2-left-ear-up.png": {
+      "frame": {
+        "x": 473.02,
+        "y": 1.412,
+        "w": 27.534,
+        "h": 78.366
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7.06,
+        "y": 6.353999999999999,
+        "w": 27.534,
+        "h": 78.366
+      },
+      "sourceSize": {
+        "w": 40.242,
+        "h": 91.074
+      }
+    },
+    "rabbit-2-left-leg.png": {
+      "frame": {
+        "x": 510.438,
+        "y": 78.366,
+        "w": 47.302,
+        "h": 38.123999999999995
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4.236,
+        "y": 4.236,
+        "w": 47.302,
+        "h": 38.123999999999995
+      },
+      "sourceSize": {
+        "w": 55.773999999999994,
+        "h": 45.184
+      }
+    },
+    "rabbit-2-right-ear-down.png": {
+      "frame": {
+        "x": 609.278,
+        "y": 64.246,
+        "w": 48.007999999999996,
+        "h": 52.949999999999996
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2.118,
+        "y": 2.824,
+        "w": 48.007999999999996,
+        "h": 52.949999999999996
+      },
+      "sourceSize": {
+        "w": 53.656,
+        "h": 60.01
+      }
+    },
+    "rabbit-2-right-ear-middle.png": {
+      "frame": {
+        "x": 596.5699999999999,
+        "y": 118.60799999999999,
+        "w": 77.66,
+        "h": 55.773999999999994
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4.236,
+        "y": 3.53,
+        "w": 77.66,
+        "h": 55.773999999999994
+      },
+      "sourceSize": {
+        "w": 84.72,
+        "h": 61.422
+      }
+    },
+    "rabbit-2-right-ear-up.png": {
+      "frame": {
+        "x": 443.368,
+        "y": 1.412,
+        "w": 28.24,
+        "h": 85.426
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5.648,
+        "y": 3.53,
+        "w": 28.24,
+        "h": 85.426
+      },
+      "sourceSize": {
+        "w": 38.123999999999995,
+        "h": 92.48599999999999
+      }
+    },
+    "rabbit-2-right-leg.png": {
+      "frame": {
+        "x": 103.076,
+        "y": 125.66799999999999,
+        "w": 47.302,
+        "h": 38.123999999999995
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3.53,
+        "y": 4.236,
+        "w": 47.302,
+        "h": 38.123999999999995
+      },
+      "sourceSize": {
+        "w": 55.773999999999994,
+        "h": 45.184
+      }
+    },
+    "rabbit-2-tail.png": {
+      "frame": {
+        "x": 675.6419999999999,
+        "y": 115.78399999999999,
+        "w": 36.006,
+        "h": 36.006
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2.118,
+        "y": 2.824,
+        "w": 36.006,
+        "h": 36.006
+      },
+      "sourceSize": {
+        "w": 43.065999999999995,
+        "h": 43.065999999999995
+      }
+    },
+    "see-saw-bench.png": {
+      "frame": {
+        "x": 151.79,
+        "y": 119.314,
+        "w": 443.368,
+        "h": 55.068
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7.06,
+        "y": 8.472,
+        "w": 443.368,
+        "h": 55.068
+      },
+      "sourceSize": {
+        "w": 453.25199999999995,
+        "h": 72.012
+      }
+    },
+    "see-saw-square.png": {
+      "frame": {
+        "x": 290.166,
+        "y": 1.412,
+        "w": 122.13799999999999,
+        "h": 113.666
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4.942,
+        "y": 4.942,
+        "w": 122.13799999999999,
+        "h": 113.666
+      },
+      "sourceSize": {
+        "w": 130.60999999999999,
+        "h": 123.55
+      }
+    },
+    "see-saw-triangle.png": {
+      "frame": {
+        "x": 151.084,
+        "y": 1.412,
+        "w": 137.67,
+        "h": 116.49
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5.648,
+        "y": 3.53,
+        "w": 137.67,
+        "h": 116.49
+      },
+      "sourceSize": {
+        "w": 146.142,
+        "h": 127.78599999999999
+      }
+    }
+  },
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker ",
+    "version": "1.0",
+    "image": "texture.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 802.722,
+      "h": 175.79399999999998
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:39ae5624ab8d349487d0906210474f7f:7d2d0df2acd4ff230c97288b72120088:88db1022cd6b660616541d2788fcd4f7$"
+  }
+}

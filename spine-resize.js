@@ -117,9 +117,16 @@ function updateJSONvalue(obj, key){
 
 			//If we're changing x or y, we need to skip over anything with the key 'scale' otherwise the animation gets
 			//scaled and we don't want this..
-			if(obj[Object.keys(obj)[i]]["scale"] != undefined && (key == "x" || key == "y")){
+			
+			/*if(obj[Object.keys(obj)[i]]["scale"] != undefined && (key == "x" || key == "y")){
+				console.log("skipping..", key, obj[Object.keys(obj)[i]])
 				continue;
-			};
+			};*/
+			
+			if(Object.keys(obj)[i] == "scale"){
+				//console.log("Current key is.. ", key, Object.keys(obj)[i])
+				continue;
+			}
 
 			//If we find a relevant key (eg. 'x' if we're searching for 'x')
 			if(obj[Object.keys(obj)[i]].propertyIsEnumerable(key)){
