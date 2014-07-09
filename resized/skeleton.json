@@ -1151,7 +1151,7 @@
         "arm-l": {
           "attachment": [
             {
-              "time": 0.1,
+              "time": 0.0333,
               "name": "arm-l-jump"
             },
             {
@@ -1163,7 +1163,7 @@
         "arm-r": {
           "attachment": [
             {
-              "time": 0.1,
+              "time": 0.0333,
               "name": "arm-r-jump"
             },
             {
@@ -1179,7 +1179,7 @@
               "name": "body"
             },
             {
-              "time": 0.1,
+              "time": 0.0333,
               "name": "body-jump"
             },
             {
@@ -1188,10 +1188,18 @@
             }
           ]
         },
+        "face": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "face-happy"
+            }
+          ]
+        },
         "leg-l": {
           "attachment": [
             {
-              "time": 0.1,
+              "time": 0.0333,
               "name": "leg-l-jump"
             },
             {
@@ -1203,12 +1211,20 @@
         "leg-r": {
           "attachment": [
             {
-              "time": 0.1,
+              "time": 0.0333,
               "name": "leg-r-jump"
             },
             {
               "time": 0.7,
               "name": "leg-r"
+            }
+          ]
+        },
+        "slide-ladder": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "_0004_rectangle"
             }
           ]
         }
