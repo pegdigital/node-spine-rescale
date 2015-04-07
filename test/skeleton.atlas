@@ -1,0 +1,132 @@
+
+skeleton.png
+size: 720.896,360.448
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+arm-lower
+  rotate: false
+  xy: 530.112, 293.568
+  size: 73.92, 65.472
+  orig: 73.92, 65.472
+  offset: 0, 0
+  index: -1
+arm-lower-i
+  rotate: false
+  xy: 179.51999999999998, 99.96799999999999
+  size: 65.472, 64.768
+  orig: 65.472, 64.768
+  offset: 0, 0
+  index: -1
+arm-upper
+  rotate: true
+  xy: 492.09599999999995, 178.112
+  size: 44.352, 43.647999999999996
+  orig: 44.352, 43.647999999999996
+  offset: 0, 0
+  index: -1
+arm-upper-i
+  rotate: true
+  xy: 130.944, 38.72
+  size: 45.53.504, 76
+  orig: 45.53.504, 76
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 185.152, 221.05599999999998
+  size: 137.98399999999998, 170.368
+  orig: 137.98399999999998, 170.368
+  offset: 0, 0
+  index: -1
+body-i
+  rotate: true
+  xy: 356.928, 223.87199999999999
+  size: 135.168, 171.77599999999998
+  orig: 135.168, 171.77599999999998
+  offset: 0, 0
+  index: -1
+body-panel
+  rotate: false
+  xy: 35.903999999999996, 43.647999999999996
+  size: 93.63199999999999, 40.832
+  orig: 93.63199999999999, 40.832
+  offset: 0, 0
+  index: -1
+body-panel-i
+  rotate: false
+  xy: 179.51999999999998, 166.14399999999998
+  size: 92.928, 53.504
+  orig: 92.928, 53.504
+  offset: 0, 0
+  index: -1
+foot-l
+  rotate: true
+  xy: 1.408, 1.408
+  size: 83.07199999999999, 33.088
+  orig: 83.07199999999999, 33.088
+  offset: 0, 0
+  index: -1
+foot-l-i
+  rotate: false
+  xy: 605.4399999999999, 328.768
+  size: 79.55199999999999, 30.272
+  orig: 79.55199999999999, 30.272
+  offset: 0, 0
+  index: -1
+foot-r
+  rotate: false
+  xy: 273.856, 185.152
+  size: 81.664, 34.495999999999995
+  orig: 81.664, 34.495999999999995
+  offset: 0, 0
+  index: -1
+foot-r-i
+  rotate: false
+  xy: 356.928, 190.07999999999998
+  size: 80.96, 32.384
+  orig: 80.96, 32.384
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1.408, 221.05599999999998
+  size: 182.33599999999998, 137.98399999999998
+  orig: 182.33599999999998, 137.98399999999998
+  offset: 0, 0
+  index: -1
+head-i
+  rotate: false
+  xy: 1.408, 85.88799999999999
+  size: 176.70399999999998, 133.76
+  orig: 176.70399999999998, 133.76
+  offset: 0, 0
+  index: -1
+leg-l
+  rotate: true
+  xy: 439.296, 171.77599999999998
+  size: 50.687999999999995, 51.391999999999996
+  orig: 50.687999999999995, 51.391999999999996
+  offset: 0, 0
+  index: -1
+leg-l-i
+  rotate: true
+  xy: 605.4399999999999, 276.67199999999997
+  size: 50.687999999999995, 58.431999999999995
+  orig: 50.687999999999995, 58.431999999999995
+  offset: 0, 0
+  index: -1
+leg-r
+  rotate: false
+  xy: 185.856, 45.76
+  size: 53.504, 52.8
+  orig: 53.504, 52.8
+  offset: 0, 0
+  index: -1
+leg-r-i
+  rotate: false
+  xy: 530.112, 234.432
+  size: 54.912, 57.727999999999994
+  orig: 54.912, 57.727999999999994
+  offset: 0, 0
+  index: -1

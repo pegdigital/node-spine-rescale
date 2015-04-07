@@ -23,7 +23,7 @@ for(var i = 0; i<paramsFromCommandLine.length; i++){
 
 //Hardcoded scale factor to resize everything by...
 //Visual asset MUST be scaled (ie. in Photoshop) by exact same amount..
-var scaleFactor = 0.706;
+var scaleFactor = 0.704;
 
 
 //Ready the file system handling for the incoming json file..
@@ -102,7 +102,12 @@ function updateJSONvalue(obj, key){
 
 			//'propertyIsEnumerable' doesn't count properties in prototype chain (eg. 'length' is a property of some of
 			//the incoming objects but also a standard propety of objects and arrays!)..
-	  		if(obj[i].propertyIsEnumerable(key)){
+	  		
+			if(obj[i] == null){
+				continue;
+			}
+	
+			if(obj[i].propertyIsEnumerable(key)){
 	  			//If we find an item has a relevant key (eg. 'x' if we're searching for 'x'):
 	  			//Change it by passing it to 'changeValue' method (it gets multiplied by scaleFactor)
 	  			obj[i][key] = changeValue(obj[i][key]);
@@ -129,6 +134,11 @@ function updateJSONvalue(obj, key){
 			}
 
 			//If we find a relevant key (eg. 'x' if we're searching for 'x')
+			
+			if(obj[Object.keys(obj)[i]] == null){
+				continue;
+			}
+			
 			if(obj[Object.keys(obj)[i]].propertyIsEnumerable(key)){
 				//Change it by passing it to 'changeValue' method (it gets multiplied by scaleFactor)
 				obj[Object.keys(obj)[i]][key] = changeValue(obj[Object.keys(obj)[i]][key]);

@@ -1,0 +1,132 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+arm-lower
+  rotate: false
+  xy: 753, 417
+  size: 105, 93
+  orig: 105, 93
+  offset: 0, 0
+  index: -1
+arm-lower-i
+  rotate: false
+  xy: 255, 142
+  size: 93, 92
+  orig: 93, 92
+  offset: 0, 0
+  index: -1
+arm-upper
+  rotate: true
+  xy: 699, 253
+  size: 63, 62
+  orig: 63, 62
+  offset: 0, 0
+  index: -1
+arm-upper-i
+  rotate: true
+  xy: 186, 55
+  size: 65, 76
+  orig: 65, 76
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 263, 314
+  size: 196, 242
+  orig: 196, 242
+  offset: 0, 0
+  index: -1
+body-i
+  rotate: true
+  xy: 507, 318
+  size: 192, 244
+  orig: 192, 244
+  offset: 0, 0
+  index: -1
+body-panel
+  rotate: false
+  xy: 51, 62
+  size: 133, 58
+  orig: 133, 58
+  offset: 0, 0
+  index: -1
+body-panel-i
+  rotate: false
+  xy: 255, 236
+  size: 132, 76
+  orig: 132, 76
+  offset: 0, 0
+  index: -1
+foot-l
+  rotate: true
+  xy: 2, 2
+  size: 118, 47
+  orig: 118, 47
+  offset: 0, 0
+  index: -1
+foot-l-i
+  rotate: false
+  xy: 860, 467
+  size: 113, 43
+  orig: 113, 43
+  offset: 0, 0
+  index: -1
+foot-r
+  rotate: false
+  xy: 389, 263
+  size: 116, 49
+  orig: 116, 49
+  offset: 0, 0
+  index: -1
+foot-r-i
+  rotate: false
+  xy: 507, 270
+  size: 115, 46
+  orig: 115, 46
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 314
+  size: 259, 196
+  orig: 259, 196
+  offset: 0, 0
+  index: -1
+head-i
+  rotate: false
+  xy: 2, 122
+  size: 251, 190
+  orig: 251, 190
+  offset: 0, 0
+  index: -1
+leg-l
+  rotate: true
+  xy: 624, 244
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+leg-l-i
+  rotate: true
+  xy: 860, 393
+  size: 72, 83
+  orig: 72, 83
+  offset: 0, 0
+  index: -1
+leg-r
+  rotate: false
+  xy: 264, 65
+  size: 76, 75
+  orig: 76, 75
+  offset: 0, 0
+  index: -1
+leg-r-i
+  rotate: false
+  xy: 753, 333
+  size: 78, 82
+  orig: 78, 82
+  offset: 0, 0
+  index: -1
