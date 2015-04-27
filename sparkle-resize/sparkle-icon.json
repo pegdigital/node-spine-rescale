@@ -1,0 +1,136 @@
+{
+  "frames": {
+    "sparkle-icon-1.png": {
+      "frame": {
+        "x": 1.408,
+        "y": 1.408,
+        "w": 61.952,
+        "h": 61.952
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 61.952,
+        "h": 61.952
+      },
+      "sourceSize": {
+        "w": 61.952,
+        "h": 61.952
+      },
+      "pivot": {
+        "x": 0.352,
+        "y": 0.352
+      }
+    },
+    "sparkle-icon-2.png": {
+      "frame": {
+        "x": 64.768,
+        "y": 1.408,
+        "w": 61.952,
+        "h": 61.952
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 61.952,
+        "h": 61.952
+      },
+      "sourceSize": {
+        "w": 61.952,
+        "h": 61.952
+      },
+      "pivot": {
+        "x": 0.352,
+        "y": 0.352
+      }
+    },
+    "sparkle-icon-3.png": {
+      "frame": {
+        "x": 128.128,
+        "y": 1.408,
+        "w": 61.952,
+        "h": 61.952
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 61.952,
+        "h": 61.952
+      },
+      "sourceSize": {
+        "w": 61.952,
+        "h": 61.952
+      },
+      "pivot": {
+        "x": 0.352,
+        "y": 0.352
+      }
+    },
+    "sparkle-icon-4.png": {
+      "frame": {
+        "x": 191.488,
+        "y": 1.408,
+        "w": 61.952,
+        "h": 61.952
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 61.952,
+        "h": 61.952
+      },
+      "sourceSize": {
+        "w": 61.952,
+        "h": 61.952
+      },
+      "pivot": {
+        "x": 0.352,
+        "y": 0.352
+      }
+    },
+    "sparkle-icon-5.png": {
+      "frame": {
+        "x": 254.84799999999998,
+        "y": 1.408,
+        "w": 61.952,
+        "h": 61.952
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 61.952,
+        "h": 61.952
+      },
+      "sourceSize": {
+        "w": 61.952,
+        "h": 61.952
+      },
+      "pivot": {
+        "x": 0.352,
+        "y": 0.352
+      }
+    }
+  },
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "sparkle-icon.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 318.20799999999997,
+      "h": 64.768
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:e442b9711b59b4f73671710ba4fac85d:bcd2e719ace990022c0fae8e55050b34:bbcc6e8bdb104555dd24e0b05de224a8$"
+  }
+}
