@@ -1,34 +1,34 @@
 
 texture.png
-size: 720.896,360.448
+size: 721,360
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 scenario-tiny-break-hat-antenna
   rotate: true
-  xy: 157.696, 12.671999999999999
-  size: 101.37599999999999, 161.92
-  orig: 101.37599999999999, 161.92
-  offset: 0, 0
+  xy: 158, 13
+  size: 101, 162
+  orig: 101, 162
+  offset: 0STRING ID, 0
   index: -1
 scenario-tiny-break-hat-antenna-shadow
   rotate: true
-  xy: 321.024, 12.671999999999999
-  size: 101.37599999999999, 161.21599999999998
-  orig: 101.37599999999999, 161.21599999999998
-  offset: 0, 0
+  xy: 321, 13
+  size: 101, 161
+  orig: 101, 161
+  offset: 0STRING ID, 0
   index: -1
 scenario-tiny-break-hat-base
   rotate: false
-  xy: 1.408, 1.408
-  size: 154.88, 112.63999999999999
-  orig: 154.88, 112.63999999999999
-  offset: 0, 0
+  xy: 1, 1
+  size: 155, 113
+  orig: 155, 113
+  offset: 0STRING ID, 0
   index: -1
 scenario-tiny-break-hat-shadow
   rotate: false
-  xy: 483.64799999999997, 1.408
-  size: 147.84, 112.63999999999999
-  orig: 147.84, 112.63999999999999
-  offset: 0, 0
+  xy: 484, 1
+  size: 148, 113
+  orig: 148, 113
+  offset: 0STRING ID, 0
   index: -1
