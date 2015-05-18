@@ -1,172 +1,153 @@
-{"frames": {
 
-"_0002_slide.png":
-{
-	"frame": {"x":2,"y":100,"w":837,"h":342},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":837,"h":342},
-	"sourceSize": {"w":837,"h":342}
-},
-"_0003_rectangle-copy.png":
-{
-	"frame": {"x":931,"y":202,"w":41,"h":174},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":174},
-	"sourceSize": {"w":41,"h":174}
-},
-"_0004_rectangle.png":
-{
-	"frame": {"x":2,"y":444,"w":188,"h":280},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":280},
-	"sourceSize": {"w":188,"h":280}
-},
-"_0006_Vector-Smart-Object-copy.png":
-{
-	"frame": {"x":932,"y":147,"w":42,"h":53},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":53},
-	"sourceSize": {"w":42,"h":53}
-},
-"_0007_Vector-Smart-Object.png":
-{
-	"frame": {"x":2,"y":2,"w":848,"h":96},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":848,"h":96},
-	"sourceSize": {"w":848,"h":96}
-},
-"arm-l-jump.png":
-{
-	"frame": {"x":997,"y":347,"w":15,"h":33},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":2,"w":15,"h":33},
-	"sourceSize": {"w":15,"h":35}
-},
-"arm-l.png":
-{
-	"frame": {"x":974,"y":320,"w":21,"h":27},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":27},
-	"sourceSize": {"w":21,"h":27}
-},
-"arm-r-jump.png":
-{
-	"frame": {"x":1004,"y":115,"w":16,"h":35},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":35},
-	"sourceSize": {"w":16,"h":35}
-},
-"arm-r.png":
-{
-	"frame": {"x":997,"y":320,"w":21,"h":25},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":25},
-	"sourceSize": {"w":21,"h":25}
-},
-"body-jump.png":
-{
-	"frame": {"x":852,"y":2,"w":78,"h":113},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":113},
-	"sourceSize": {"w":78,"h":113}
-},
-"body.png":
-{
-	"frame": {"x":932,"y":2,"w":77,"h":111},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":77,"h":111},
-	"sourceSize": {"w":77,"h":111}
-},
-"ear-l.png":
-{
-	"frame": {"x":932,"y":115,"w":70,"h":30},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":30},
-	"sourceSize": {"w":70,"h":30}
-},
-"ear-r.png":
-{
-	"frame": {"x":841,"y":117,"w":49,"h":62},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":62},
-	"sourceSize": {"w":49,"h":62}
-},
-"face-happy.png":
-{
-	"frame": {"x":974,"y":275,"w":40,"h":43},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":43},
-	"sourceSize": {"w":40,"h":43}
-},
-"face-sad.png":
-{
-	"frame": {"x":974,"y":230,"w":40,"h":43},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":43},
-	"sourceSize": {"w":40,"h":43}
-},
-"leg-l-jump.png":
-{
-	"frame": {"x":892,"y":117,"w":38,"h":49},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":49},
-	"sourceSize": {"w":38,"h":49}
-},
-"leg-l.png":
-{
-	"frame": {"x":976,"y":147,"w":24,"h":36},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":36},
-	"sourceSize": {"w":24,"h":36}
-},
-"leg-r-jump.png":
-{
-	"frame": {"x":976,"y":185,"w":42,"h":43},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":43},
-	"sourceSize": {"w":42,"h":43}
-},
-"leg-r.png":
-{
-	"frame": {"x":892,"y":168,"w":37,"h":35},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":37,"h":35},
-	"sourceSize": {"w":37,"h":35}
-},
-"square.png":
-{
-	"frame": {"x":2,"y":726,"w":200,"h":191},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":191},
-	"sourceSize": {"w":200,"h":191}
-}},
-"meta": {
-	"app": "http://www.codeandweb.com/texturepacker ",
-	"version": "1.0",
-	"image": "texture.png",
-	"format": "RGBA8888",
-	"size": {"w":1024,"h":1024},
-	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:2fdc4a3ec0e792d192067291308dff1c:991cd3a0a9f889adb81a230dd117f9f0:88db1022cd6b660616541d2788fcd4f7$"
-}
-}
+skeleton.png
+size: 1024,256
+format: RGBA8888
+filter: MipMap,MipMap
+repeat: none
+hat-glow
+  rotate: false
+  xy: 708, 49
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+tiny_0000s_0001_Layer-21
+  rotate: false
+  xy: 463, 19
+  size: 99, 75
+  orig: 99, 75
+  offset: 0, 0
+  index: -1
+tiny_0001_brush
+  rotate: false
+  xy: 342, 7
+  size: 119, 187
+  orig: 119, 187
+  offset: 0, 0
+  index: -1
+tiny_0002_baton
+  rotate: true
+  xy: 466, 196
+  size: 58, 194
+  orig: 58, 194
+  offset: 0, 0
+  index: -1
+tiny_0003_fork
+  rotate: false
+  xy: 731, 102
+  size: 30, 88
+  orig: 30, 88
+  offset: 0, 0
+  index: -1
+tiny_0004_hand-l
+  rotate: false
+  xy: 659, 36
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+tiny_0005_forearm-l
+  rotate: false
+  xy: 763, 144
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+tiny_0006_arm-l
+  rotate: false
+  xy: 564, 2
+  size: 52, 95
+  orig: 52, 95
+  offset: 0, 0
+  index: -1
+tiny_0006_eyes
+  rotate: true
+  xy: 661, 86
+  size: 108, 26
+  orig: 108, 26
+  offset: 0, 0
+  index: -1
+tiny_0007_hand-r
+  rotate: false
+  xy: 763, 99
+  size: 52, 43
+  orig: 52, 43
+  offset: 0, 0
+  index: -1
+tiny_0008_forearm-r
+  rotate: false
+  xy: 762, 192
+  size: 90, 62
+  orig: 90, 62
+  offset: 0, 0
+  index: -1
+tiny_0009_arm-r
+  rotate: true
+  xy: 662, 200
+  size: 54, 98
+  orig: 54, 98
+  offset: 0, 0
+  index: -1
+tiny_0010_foot-r
+  rotate: true
+  xy: 618, 13
+  size: 84, 39
+  orig: 84, 39
+  offset: 0, 0
+  index: -1
+tiny_0011_body
+  rotate: false
+  xy: 2, 16
+  size: 193, 238
+  orig: 193, 238
+  offset: 0, 0
+  index: -1
+tiny_0012_leg-r
+  rotate: false
+  xy: 937, 179
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+tiny_0013_head
+  rotate: false
+  xy: 197, 21
+  size: 143, 173
+  orig: 143, 173
+  offset: 0, 0
+  index: -1
+tiny_0014_leg-l
+  rotate: true
+  xy: 854, 184
+  size: 70, 81
+  orig: 70, 81
+  offset: 0, 0
+  index: -1
+tiny_0015_foot-l
+  rotate: true
+  xy: 689, 95
+  size: 103, 40
+  orig: 103, 40
+  offset: 0, 0
+  index: -1
+tiny_0016_ear-l
+  rotate: false
+  xy: 561, 99
+  size: 98, 95
+  orig: 98, 95
+  offset: 0, 0
+  index: -1
+tiny_0017_ear-r
+  rotate: false
+  xy: 463, 96
+  size: 96, 98
+  orig: 96, 98
+  offset: 0, 0
+  index: -1
+tiny_0020_shadow
+  rotate: false
+  xy: 197, 196
+  size: 267, 58
+  orig: 267, 58
+  offset: 0, 0
+  index: -1

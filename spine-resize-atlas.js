@@ -86,23 +86,32 @@ function handleFile(){
 	
 	
 }
-
+//Mickey mouse but works for required format...
 function replaceLine(line){
 	var regEx = /\d+/g;
 	var result = line.match(regEx);
 	
 	var newLine = line;
-		
+	
+	//Replace matched strings with unique IDs..
 	for(var i = 0; i < result.length; i++){	
-		newLine = newLine.replace(result[i], result[i] * scaleFactor);
+		newLine = newLine.replace(result[i], String(i)+"STRING ID");	
 	}	
-	//console.log(newLine)
+	
+	//Replace unique IDs with new result (this 2 stage process stops mixing up matched strings from first and second result)
+	for(var i = 0; i < result.length; i++){	
+		newLine = newLine.replace(String(i)+"STRING ID", Math.round(result[i] * scaleFactor));
+		//newLine = newLine.replace(result[i], result[i] * scaleFactor);	
+		//console.log("OK found this part!..", result[i], "replacing with..", result[i] * scaleFactor, newLine)	
+	}	
+	
+	//console.log("new line!", newLine)
 	
 	currentNewFile = currentNewFile.concat(newLine + "\n")
 }
 
 function keepLine(line){
-	//console.log(line)
+	//console.log("kept line", line)
 	
 	currentNewFile = currentNewFile.concat(line + "\n")
 }
@@ -116,4 +125,14 @@ function outputNewFile(string, output){
             console.log("The file was saved!");
         }    
 	});	
+}
+
+function guid() {
+  function s4() {
+    return Math.floor((1 + Math.random()) * 0x10000)
+      .toString(16)
+      .substring(1);
+  }
+  return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+    s4() + '-' + s4() + s4() + s4();
 }

@@ -1,132 +1,237 @@
 
-skeleton.png
-size: 1024,512
+texture.png
+size: 988,810
 format: RGBA8888
-filter: MipMap,MipMap
+filter: Linear,Linear
 repeat: none
-arm-lower
+major/major_0000_major-side-copy
   rotate: false
-  xy: 753, 417
+  xy: 489, 256
+  size: 299, 211
+  orig: 299, 211
+  offset: 0, 0
+  index: -1
+major/major_0001_major-side-copy-4
+  rotate: false
+  xy: 520, 3
+  size: 88, 72
+  orig: 88, 72
+  offset: 0, 0
+  index: -1
+major/major_0002_major-side-copy-3
+  rotate: false
+  xy: 627, 527
+  size: 137, 63
+  orig: 137, 63
+  offset: 0, 0
+  index: -1
+major/major_0003_Layer-3-copy-3
+  rotate: true
+  xy: 201, 123
+  size: 89, 108
+  orig: 89, 108
+  offset: 0, 0
+  index: -1
+mother/tiny_0001_Layer-3-copy
+  rotate: true
+  xy: 201, 123
+  size: 89, 108
+  orig: 89, 108
+  offset: 0, 0
+  index: -1
+major/major_0004_Layer-3-copy-2
+  rotate: true
+  xy: 844, 475
+  size: 72, 101
+  orig: 72, 101
+  offset: 0, 0
+  index: -1
+mother/tiny_0002_Layer-3
+  rotate: true
+  xy: 844, 475
+  size: 72, 101
+  orig: 72, 101
+  offset: 0, 0
+  index: -1
+major/major_0005_major-side-copy-2
+  rotate: true
+  xy: 476, 592
+  size: 216, 293
+  orig: 216, 293
+  offset: 0, 0
+  index: -1
+major/major_0006_Layer-4-copy-3
+  rotate: false
+  xy: 252, 14
+  size: 131, 63
+  orig: 131, 63
+  offset: 0, 0
+  index: -1
+major/major_0007_Layer-4-copy-2
+  rotate: false
+  xy: 863, 8
+  size: 70, 62
+  orig: 70, 62
+  offset: 0, 0
+  index: -1
+mother/tiny_0007_Layer-4
+  rotate: false
+  xy: 863, 8
+  size: 70, 62
+  orig: 70, 62
+  offset: 0, 0
+  index: -1
+mother/tiny_0001_Layer-3-copy-head
+  rotate: false
+  xy: 489, 77
+  size: 298, 177
+  orig: 298, 177
+  offset: 0, 0
+  index: -1
+mother/tiny_0003_mother-side-copy-2
+  rotate: false
+  xy: 2, 290
+  size: 234, 269
+  orig: 234, 269
+  offset: 0, 0
+  index: -1
+mother/tiny_0004_mother-side-copy-4
+  rotate: true
+  xy: 311, 79
+  size: 133, 64
+  orig: 133, 64
+  offset: 0, 0
+  index: -1
+mother/tiny_0005_mother-side-copy-3
+  rotate: true
+  xy: 377, 121
+  size: 91, 82
+  orig: 91, 82
+  offset: 0, 0
+  index: -1
+mother/tiny_0006_Layer-4-copy
+  rotate: true
+  xy: 789, 66
+  size: 160, 72
+  orig: 160, 72
+  offset: 0, 0
+  index: -1
+small/arm-lower
+  rotate: true
+  xy: 863, 121
   size: 105, 93
   orig: 105, 93
   offset: 0, 0
   index: -1
-arm-lower-i
+small/arm-upper
   rotate: false
-  xy: 255, 142
-  size: 93, 92
-  orig: 93, 92
-  offset: 0, 0
-  index: -1
-arm-upper
-  rotate: true
-  xy: 699, 253
+  xy: 780, 2
   size: 63, 62
   orig: 63, 62
   offset: 0, 0
   index: -1
-arm-upper-i
-  rotate: true
-  xy: 186, 55
-  size: 65, 76
-  orig: 65, 76
-  offset: 0, 0
-  index: -1
-body
-  rotate: true
-  xy: 263, 314
+small/body
+  rotate: false
+  xy: 790, 228
   size: 196, 242
   orig: 196, 242
   offset: 0, 0
   index: -1
-body-i
-  rotate: true
-  xy: 507, 318
-  size: 192, 244
-  orig: 192, 244
-  offset: 0, 0
-  index: -1
-body-panel
+small/body-panel
   rotate: false
-  xy: 51, 62
+  xy: 385, 17
   size: 133, 58
   orig: 133, 58
   offset: 0, 0
   index: -1
-body-panel-i
+small/foot-l
   rotate: false
-  xy: 255, 236
-  size: 132, 76
-  orig: 132, 76
-  offset: 0, 0
-  index: -1
-foot-l
-  rotate: true
-  xy: 2, 2
+  xy: 863, 72
   size: 118, 47
   orig: 118, 47
   offset: 0, 0
   index: -1
-foot-l-i
-  rotate: false
-  xy: 860, 467
-  size: 113, 43
-  orig: 113, 43
-  offset: 0, 0
-  index: -1
-foot-r
-  rotate: false
-  xy: 389, 263
+small/foot-r
+  rotate: true
+  xy: 201, 5
   size: 116, 49
   orig: 116, 49
   offset: 0, 0
   index: -1
-foot-r-i
-  rotate: false
-  xy: 507, 270
-  size: 115, 46
-  orig: 115, 46
-  offset: 0, 0
-  index: -1
-head
-  rotate: false
-  xy: 2, 314
+small/head
+  rotate: true
+  xy: 771, 549
   size: 259, 196
   orig: 259, 196
   offset: 0, 0
   index: -1
-head-i
-  rotate: false
-  xy: 2, 122
-  size: 251, 190
-  orig: 251, 190
-  offset: 0, 0
-  index: -1
-leg-l
+small/leg-l
   rotate: true
-  xy: 624, 244
+  xy: 610, 3
   size: 72, 73
   orig: 72, 73
   offset: 0, 0
   index: -1
-leg-l-i
-  rotate: true
-  xy: 860, 393
-  size: 72, 83
-  orig: 72, 83
-  offset: 0, 0
-  index: -1
-leg-r
+small/leg-r
   rotate: false
-  xy: 264, 65
+  xy: 766, 472
   size: 76, 75
   orig: 76, 75
   offset: 0, 0
   index: -1
-leg-r-i
+tiny/tiny_0000s_0000_Layer-1-copy-5
+  rotate: true
+  xy: 476, 469
+  size: 121, 149
+  orig: 121, 149
+  offset: 0, 0
+  index: -1
+tiny/tiny_0000s_0001_Layer-1-copy-3
+  rotate: true
+  xy: 685, 6
+  size: 69, 93
+  orig: 69, 93
+  offset: 0, 0
+  index: -1
+tiny/tiny_0000s_0002_Layer-1-copy-2
+  rotate: true
+  xy: 2, 7
+  size: 281, 197
+  orig: 281, 197
+  offset: 0, 0
+  index: -1
+tiny/tiny_0000s_0003_Layer-1-copy-6
   rotate: false
-  xy: 753, 333
-  size: 78, 82
-  orig: 78, 82
+  xy: 238, 214
+  size: 249, 220
+  orig: 249, 220
+  offset: 0, 0
+  index: -1
+tiny/tiny_0000s_0004_Layer-1-copy-4
+  rotate: false
+  xy: 2, 561
+  size: 253, 247
+  orig: 253, 247
+  offset: 0, 0
+  index: -1
+tiny/tiny_0000s_0005_Layer-1-copy
+  rotate: false
+  xy: 257, 436
+  size: 217, 372
+  orig: 217, 372
+  offset: 0, 0
+  index: -1
+tiny/tiny_0000s_0006_Layer-1-copy-8
+  rotate: true
+  xy: 935, 11
+  size: 59, 47
+  orig: 59, 47
+  offset: 0, 0
+  index: -1
+tiny/tiny_0000s_0007_Layer-1-copy-7
+  rotate: false
+  xy: 627, 474
+  size: 109, 51
+  orig: 109, 51
   offset: 0, 0
   index: -1
