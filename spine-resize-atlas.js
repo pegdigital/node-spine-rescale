@@ -1,7 +1,7 @@
 
 
 ////////////// Run in Node as follows: 
-//node spine-resize file1.json file2.json file3.json outputFolderName
+//node spine-resize-atlas file1.json file2.json file3.json outputFolderName
 //Can handle as many files needed, output folder name must be last param, output folder created inside current folder (where input files are)
 
 //Grab the incoming command-line paramaters...
