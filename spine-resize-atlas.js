@@ -94,7 +94,7 @@ function replaceLine(line){
 	var newLine = line;
 	
 	//Replace matched strings with unique IDs..
-	for(var i = 0; i < result.length; i++){	
+	/*for(var i = 0; i < result.length; i++){	
 		newLine = newLine.replace(result[i], String(i)+"STRING ID");	
 	}	
 	
@@ -103,6 +103,26 @@ function replaceLine(line){
 		newLine = newLine.replace(String(i)+"STRING ID", Math.round(result[i] * scaleFactor));
 		//newLine = newLine.replace(result[i], result[i] * scaleFactor);	
 		//console.log("OK found this part!..", result[i], "replacing with..", result[i] * scaleFactor, newLine)	
+	}*/	
+	
+	//Replace matched strings with unique IDs..
+	for(var i = 0; i < result.length; i++){	
+		if(i == 0){
+			newLine = newLine.replace(result[0], "aaa");
+		}else if(i == 1){
+			newLine = newLine.replace(result[1], "bbb");
+		}
+			
+	}	
+	
+	//Replace unique IDs with new result (this 2 stage process stops mixing up matched strings from first and second result)
+	for(var i = 0; i < result.length; i++){	
+		if(i == 0){
+			newLine = newLine.replace("aaa", Math.round(result[0] * scaleFactor));
+		}else if(i == 1){
+			newLine = newLine.replace("bbb", Math.round(result[1] * scaleFactor));
+		}
+		
 	}	
 	
 	//console.log("new line!", newLine)

@@ -1,0 +1,90 @@
+
+texture.png
+size: 469,378
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mother-watering-eyes
+  rotate: false
+  xy: 303, 11
+  size: 62, 38
+  orig: 62, 38
+  offset: 0, 0
+  index: -1
+mother-watering-spring
+  rotate: false
+  xy: 303, 51
+  size: 70, 36
+  orig: 70, 36
+  offset: 0, 0
+  index: -1
+mother-watering-tap
+  rotate: true
+  xy: 163, 2
+  size: 84, 91
+  orig: 84, 91
+  offset: 0, 0
+  index: -1
+mother_0000_trumpet
+  rotate: true
+  xy: 377, 45
+  size: 139, 91
+  orig: 139, 91
+  offset: 0, 0
+  index: -1
+mother_0003_ear-l
+  rotate: false
+  xy: 393, 294
+  size: 65, 82
+  orig: 65, 82
+  offset: 0, 0
+  index: -1
+mother_0004_head
+  rotate: false
+  xy: 193, 186
+  size: 199, 191
+  orig: 199, 191
+  offset: 0, 0
+  index: -1
+mother_0005_ear-r
+  rotate: true
+  xy: 393, 221
+  size: 72, 70
+  orig: 72, 70
+  offset: 0, 0
+  index: -1
+mother_0006_Layer-4
+  rotate: false
+  xy: 1, 20
+  size: 160, 124
+  orig: 160, 124
+  offset: 0, 0
+  index: -1
+mother_0007_Layer-4-copy
+  rotate: false
+  xy: 255, 16
+  size: 47, 70
+  orig: 47, 70
+  offset: 0, 0
+  index: -1
+mother_0008_mother-watering-copy
+  rotate: false
+  xy: 193, 88
+  size: 182, 96
+  orig: 182, 96
+  offset: 0, 0
+  index: -1
+mother_0009_Layer-3
+  rotate: false
+  xy: 1, 145
+  size: 190, 232
+  orig: 190, 232
+  offset: 0, 0
+  index: -1
+mother_arm-back
+  rotate: true
+  xy: 367, 1
+  size: 42, 56
+  orig: 42, 56
+  offset: 0, 0
+  index: -1
