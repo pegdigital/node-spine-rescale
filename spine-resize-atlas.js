@@ -26,7 +26,8 @@ for(var i = 0; i<paramsFromCommandLine.length; i++){
 
 //Hardcoded scale factor to resize everything by...
 //Visual asset MUST be scaled (ie. in Photoshop) by exact same amount..
-var scaleFactor = 0.704;
+//var scaleFactor = 0.704;
+var scaleFactor = 0.5;
 
 //Ready the file system handling for the incoming json file..
 var incomingFile = require('fs');

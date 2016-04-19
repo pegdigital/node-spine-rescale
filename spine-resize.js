@@ -23,7 +23,8 @@ for(var i = 0; i<paramsFromCommandLine.length; i++){
 
 //Hardcoded scale factor to resize everything by...
 //Visual asset MUST be scaled (ie. in Photoshop) by exact same amount..
-var scaleFactor = 0.704;
+//var scaleFactor = 0.704;
+var scaleFactor = 0.5;
 
 
 //Ready the file system handling for the incoming json file..
@@ -83,7 +84,11 @@ function beginUpdate(json){
 	updateJSONvalue(json, "w");
 	updateJSONvalue(json, "h");
 	updateJSONvalue(json, "width");
-	updateJSONvalue(json, "height");		
+	updateJSONvalue(json, "height");
+	//
+	
+	//updateJSONvalue(json, "scaleX");
+	//updateJSONvalue(json, "scaleY");		
 };
 
 function updateJSONvalue(obj, key){
