@@ -1,0 +1,90 @@
+
+skeleton.png
+size: 764,448
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+donald-camping-outro_0000_hammer
+  rotate: false
+  xy: 293, 11
+  size: 136, 130
+  orig: 136, 130
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0001_head-down-shock
+  rotate: false
+  xy: 301, 233
+  size: 153, 214
+  orig: 153, 214
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0002_head-shock
+  rotate: false
+  xy: 430, 20
+  size: 167, 212
+  orig: 167, 212
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0003_head-side
+  rotate: false
+  xy: 1, 1
+  size: 177, 197
+  orig: 177, 197
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0004_head-forward
+  rotate: false
+  xy: 455, 257
+  size: 165, 190
+  orig: 165, 190
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0005_leg-left-standing
+  rotate: false
+  xy: 598, 135
+  size: 154, 121
+  orig: 154, 121
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0005_leg-right-standing
+  rotate: false
+  xy: 620, 300
+  size: 143, 147
+  orig: 143, 147
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0006_body
+  rotate: false
+  xy: 1, 199
+  size: 176, 248
+  orig: 176, 248
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0007_right-leg
+  rotate: false
+  xy: 178, 227
+  size: 123, 220
+  orig: 123, 220
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0008_left-leg
+  rotate: false
+  xy: 179, 30
+  size: 113, 196
+  orig: 113, 196
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0009_donald-arm-lower
+  rotate: false
+  xy: 301, 141
+  size: 128, 91
+  orig: 128, 91
+  offset: 0, 0
+  index: -1
+donald-camping-outro_0010_donald-arm-upper
+  rotate: false
+  xy: 598, 40
+  size: 85, 95
+  orig: 85, 95
+  offset: 0, 0
+  index: -1
