@@ -1,0 +1,57 @@
+{"frames": {
+
+"blank-input-muzzle-flash.png":
+{
+	"frame": {"x":100,"y":342,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":2,"h":2},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"muzzle-flash-0.png":
+{
+	"frame": {"x":1,"y":1,"w":240,"h":339},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":240,"h":339},
+	"sourceSize": {"w":240,"h":345},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"muzzle-flash-1.png":
+{
+	"frame": {"x":243,"y":1,"w":156,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":58,"w":156,"h":232},
+	"sourceSize": {"w":240,"h":345},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"muzzle-flash-2.png":
+{
+	"frame": {"x":243,"y":235,"w":128,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":89,"w":128,"h":164},
+	"sourceSize": {"w":240,"h":345},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"muzzle-flash-3.png":
+{
+	"frame": {"x":1,"y":342,"w":97,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":137,"w":97,"h":76},
+	"sourceSize": {"w":240,"h":345},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "muzzle-flash-anim-frames.png",
+	"format": "RGBA8888",
+	"size": {"w":400,"h":419},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f54b0fc78ff29f4c232c7be49a76bd50:5dcd6fc6dcd3316c1aedab9b9e48baad:eb6cf9103dbab4a1cc778af1705b52d4$"
+}
+}

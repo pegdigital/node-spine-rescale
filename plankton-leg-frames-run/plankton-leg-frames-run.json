@@ -1,0 +1,184 @@
+{
+  "frames": {
+    "plankton-legs-run-0.png": {
+      "frame": {
+        "x": 37,
+        "y": 23.5,
+        "w": 19.5,
+        "h": 21.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13.5,
+        "y": 8.5,
+        "w": 19.5,
+        "h": 21.5
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 30
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "plankton-legs-run-1.png": {
+      "frame": {
+        "x": 0.5,
+        "y": 63,
+        "w": 28,
+        "h": 21.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8.5,
+        "y": 8.5,
+        "w": 28,
+        "h": 21.5
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 30
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "plankton-legs-run-2.png": {
+      "frame": {
+        "x": 0.5,
+        "y": 0.5,
+        "w": 36,
+        "h": 18.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4.5,
+        "y": 7,
+        "w": 36,
+        "h": 18.5
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 30
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "plankton-legs-run-3.png": {
+      "frame": {
+        "x": 31.5,
+        "y": 46,
+        "w": 24.5,
+        "h": 27
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8.5,
+        "y": 3,
+        "w": 24.5,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 30
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "plankton-legs-run-4.png": {
+      "frame": {
+        "x": 37.5,
+        "y": 0.5,
+        "w": 19,
+        "h": 22
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12.5,
+        "y": 8,
+        "w": 19,
+        "h": 22
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 30
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "plankton-legs-run-5.png": {
+      "frame": {
+        "x": 0.5,
+        "y": 38.5,
+        "w": 30,
+        "h": 23.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 6.5,
+        "w": 30,
+        "h": 23.5
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 30
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "plankton-legs-run-6.png": {
+      "frame": {
+        "x": 0.5,
+        "y": 20,
+        "w": 35.5,
+        "h": 17.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7.5,
+        "y": 8.5,
+        "w": 35.5,
+        "h": 17.5
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 30
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "plankton-leg-frames-run.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 57,
+      "h": 85
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:5bb7cc00d38efcfd63e98724d345b596:91c74aba146eaeaf70febef87f2be9eb:dcb6472a6f75d501da39c8d4fc6d277f$"
+  }
+}

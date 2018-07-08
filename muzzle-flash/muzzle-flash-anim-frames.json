@@ -1,0 +1,136 @@
+{
+  "frames": {
+    "blank-input-muzzle-flash.png": {
+      "frame": {
+        "x": 50,
+        "y": 171,
+        "w": 1.5,
+        "h": 1.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1.5,
+        "h": 1.5
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 1
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "muzzle-flash-0.png": {
+      "frame": {
+        "x": 0.5,
+        "y": 0.5,
+        "w": 120,
+        "h": 169.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 120,
+        "h": 169.5
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 172.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "muzzle-flash-1.png": {
+      "frame": {
+        "x": 121.5,
+        "y": 0.5,
+        "w": 78,
+        "h": 116
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 29,
+        "w": 78,
+        "h": 116
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 172.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "muzzle-flash-2.png": {
+      "frame": {
+        "x": 121.5,
+        "y": 117.5,
+        "w": 64,
+        "h": 82
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 44.5,
+        "w": 64,
+        "h": 82
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 172.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "muzzle-flash-3.png": {
+      "frame": {
+        "x": 0.5,
+        "y": 171,
+        "w": 48.5,
+        "h": 38
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 68.5,
+        "w": 48.5,
+        "h": 38
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 172.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "muzzle-flash-anim-frames.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 200,
+      "h": 209.5
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:f54b0fc78ff29f4c232c7be49a76bd50:5dcd6fc6dcd3316c1aedab9b9e48baad:eb6cf9103dbab4a1cc778af1705b52d4$"
+  }
+}

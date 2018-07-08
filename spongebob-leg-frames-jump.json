@@ -1,0 +1,30 @@
+{"frames": {
+
+"spongebob-jump-0.png":
+{
+	"frame": {"x":1,"y":1,"w":105,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":0,"w":105,"h":89},
+	"sourceSize": {"w":270,"h":89},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"spongebob-jump-1.png":
+{
+	"frame": {"x":108,"y":1,"w":200,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":0,"w":200,"h":84},
+	"sourceSize": {"w":270,"h":89},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "spongebob-leg-frames-jump.png",
+	"format": "RGBA8888",
+	"size": {"w":309,"h":91},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5936a5c86d259adb07bb7db99ab16f62:11d66c6859c97386dea66c6fd13fe5e9:251b7accc3a830745da97a0ff0bcc3e4$"
+}
+}

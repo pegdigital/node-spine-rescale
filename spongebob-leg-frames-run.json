@@ -1,0 +1,184 @@
+{
+  "frames": {
+    "spongebob-run-0.png": {
+      "frame": {
+        "x": 261,
+        "y": 0.5,
+        "w": 35.5,
+        "h": 44.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 45,
+        "y": 0,
+        "w": 35.5,
+        "h": 44.5
+      },
+      "sourceSize": {
+        "w": 135,
+        "h": 44.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "spongebob-run-1.png": {
+      "frame": {
+        "x": 155.5,
+        "y": 0.5,
+        "w": 52.5,
+        "h": 44.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 32.5,
+        "y": 0,
+        "w": 52.5,
+        "h": 44.5
+      },
+      "sourceSize": {
+        "w": 135,
+        "h": 44.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "spongebob-run-2.png": {
+      "frame": {
+        "x": 398.5,
+        "y": 0.5,
+        "w": 99.5,
+        "h": 40.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 0,
+        "w": 99.5,
+        "h": 40.5
+      },
+      "sourceSize": {
+        "w": 135,
+        "h": 44.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "spongebob-run-3.png": {
+      "frame": {
+        "x": 0.5,
+        "y": 0.5,
+        "w": 97,
+        "h": 44.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10.5,
+        "y": 0,
+        "w": 97,
+        "h": 44.5
+      },
+      "sourceSize": {
+        "w": 135,
+        "h": 44.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "spongebob-run-4.png": {
+      "frame": {
+        "x": 98.5,
+        "y": 0.5,
+        "w": 56,
+        "h": 44.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 0,
+        "w": 56,
+        "h": 44.5
+      },
+      "sourceSize": {
+        "w": 135,
+        "h": 44.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "spongebob-run-5.png": {
+      "frame": {
+        "x": 209,
+        "y": 0.5,
+        "w": 51,
+        "h": 44.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 31,
+        "y": 0,
+        "w": 51,
+        "h": 44.5
+      },
+      "sourceSize": {
+        "w": 135,
+        "h": 44.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    "spongebob-run-6.png": {
+      "frame": {
+        "x": 297.5,
+        "y": 0.5,
+        "w": 100,
+        "h": 42
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 0,
+        "w": 100,
+        "h": 42
+      },
+      "sourceSize": {
+        "w": 135,
+        "h": 44.5
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "spongebob-leg-frames-run.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 498.5,
+      "h": 45.5
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:bb85c5307818231deb4a14cba968d06f:e1114708f8db489e709039545fabc854:63621e03a2e7b8b5589795000f166e8b$"
+  }
+}
